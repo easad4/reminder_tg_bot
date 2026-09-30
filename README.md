@@ -66,8 +66,8 @@ Telegram-бот с полностью кнопочным интерфейсом 
 ```bash
 # 1. Создайте бота в @BotFather и получите токен
 # 2. На VPS выполните:
-curl -fsSL https://raw.githubusercontent.com/<ваш-логин>/<репо>/main/install.sh -o install.sh \
-  && REPO_URL=https://github.com/<ваш-логин>/<репо>.git sudo -E bash install.sh
+curl -fsSL https://raw.githubusercontent.com/easad4/reminder_tg_bot/main/install.sh -o install.sh \
+  && REPO_URL=https://github.com/easad4/reminder_tg_bot.git sudo -E bash install.sh
 # 3. Введите токен по запросу скрипта
 # 4. Откройте бота в Telegram и отправьте /start
 ```
@@ -121,8 +121,8 @@ apt-get update && apt-get install -y git curl ca-certificates
 ### Вариант A. Скрипт из репозитория + явный `REPO_URL`
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<ваш-логин>/<репо>/main/install.sh -o install.sh \
-  && REPO_URL=https://github.com/<ваш-логин>/<репо>.git sudo -E bash install.sh
+curl -fsSL https://raw.githubusercontent.com/easad4/reminder_tg_bot/main/install.sh -o install.sh \
+  && REPO_URL=https://github.com/easad4/reminder_tg_bot.git sudo -E bash install.sh
 ```
 
 ### Вариант B. Скрипт лежит на вашем домене, `REPO_URL` вшит в него
