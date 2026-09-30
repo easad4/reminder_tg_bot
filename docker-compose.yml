@@ -1,0 +1,15 @@
+services:
+  bot:
+    build: .
+    image: task-bot:latest
+    container_name: task-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/data
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
