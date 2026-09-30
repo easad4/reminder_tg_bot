@@ -63,14 +63,14 @@ Telegram-бот с полностью кнопочным интерфейсом 
 
 Кратко — для тех, кто уже знает, что делает:
 
-```bash
 # 1. Создайте бота в @BotFather и получите токен
 # 2. На VPS выполните:
+```bash
 curl -fsSL https://raw.githubusercontent.com/easad4/reminder_tg_bot/main/install.sh -o install.sh \
   && REPO_URL=https://github.com/easad4/reminder_tg_bot.git sudo -E bash install.sh
+```
 # 3. Введите токен по запросу скрипта
 # 4. Откройте бота в Telegram и отправьте /start
-```
 
 Подробности — ниже.
 
